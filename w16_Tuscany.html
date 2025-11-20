@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>A Taste of Tuscany</title>
+        <link type="text/css" rel="stylesheet" href="w16_Tuscany.css" />
+        <script type="text/javascript">
+        function Special() {
+            let specials = document.getElementById("Special");
+            specials.style.display ="block";
+        }
+        function UnSpecial() {
+            let specials = document.getElementById("Special");
+            specials.style.display ="none";
+        }
+        </script>
+    </head>
+    <body>
+        <article id="Home">
+                <p class="large-text" style="margin-top: 2.5%;">
+                    <b>A Taste of Tuscany</b><br/>
+                    Italian Resturant
+                </p>
+                <p style="margin-top: -4%; font-size: 200%; margin-bottom: -2.25%;">
+                    234 Arezzo Avenue<br/>
+                    Sherwood Park
+                </p>
+                <p style="margin-bottom: -8%;">
+                <img src="https://github.com/Gamer98082/photo1/blob/main/Copilot_20251106_144516.png?raw=true" height="500"><img/>
+                </p>
+                <p>
+                    <ul>
+                        <li>Fine Italian Dining</li>
+                        <li class="link" onclick = "Special()">Daily Specials</li>
+                        <li>Licensed</li>
+                        <li>Banquet Room</li>
+                        <li>Open Daily Until 11pm</li>
+                        <li>Eat in, Take Out, Delivery</li>
+                        <li>Call (780) 555-1234</li>
+                    </ul>
+                </p>
+        </article>
+        <article id="Special">
+                <div>
+                <p class="large-text" style="margin-top: 2%; margin-bottom: -2%;">
+                    <i><b>Today's Special</b></i><br/>
+                    <i>Valigette(Beef Rolls)</i><br/>
+                    $12.95
+                </p>
+                <p style="margin-bottom: -2%;">
+                    <img src="https://github.com/Gamer98082/photo1/blob/main/Copilot_20251107_140708.png?raw=true" height="500"></img>
+                </p>
+                <p style="margin-left: -10%; margin-bottom: 0%; font-size: 125%;">
+                Includes any <i>two</i> of:
+                </p>
+                <ol>
+                    <li><i>Pasta e Fagioli</i></li>
+                    <li><i>Ravioli Nudi</i></li>
+                    <li><i>Fettuna</i></li>
+                    <li><i>Croistini con Salsiccia</i></li>
+                    <li><i>Ribollita</i></li>
+                </ol>
+                <p class = "link" onclick = "UnSpecial()">Back</p>
+                </div>
+        </article>
+    </body>
+</html>
